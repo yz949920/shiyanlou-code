@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.urls import path
 from myApp import views  #引入试图函数
 
-
+app_name = 'myApp' #添加名字
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path('',views.detail, name='detail'),
+    path('addBook/', views.addBook, name='addBook'),
     #新增路由映射
 ]
