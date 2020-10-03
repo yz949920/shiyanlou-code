@@ -25,7 +25,7 @@ SECRET_KEY = 'c-0xl7c!9cy0_=ggu4a(8rl&&t258xy_4!8t$1o*1#*e%e5c58'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0ef89ea795f2-service.simplelab.cn']
+ALLOWED_HOSTS = ['5577c922a91b-service.simplelab.cn']
 
 
 # Application definition

@@ -19,7 +19,7 @@ from myApp import views  #引入试图函数
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',views.index, name='index'),
+    #path('admin/', admin.site.urls),
+    path('',views.detail, name='detail'),
     #新增路由映射
 ]
